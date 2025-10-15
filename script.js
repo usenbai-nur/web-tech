@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //Background change
 function changeBackground() {
-  const colors = ["#0a0a0f", "#001f3f", "#0d0d12", "#111", "#002b36"];
+  const colors = ["#0a0a0f", "#612f82ff", "#0f509bff", "#257b3bff", "#69e30bff"];
   document.body.style.background = colors[Math.floor(Math.random() * colors.length)];
 }
 
